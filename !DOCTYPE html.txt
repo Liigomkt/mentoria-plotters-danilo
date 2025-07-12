@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentoria Plotters Usadas – Danilo Oliveira | Desbloqueie Lucros Escondidos</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos globais para a fonte Inter e fundo */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000; /* Fundo escuro */
+            color: #fff; /* Texto branco */
+            margin: 0;
+            overflow-x: hidden; /* Previne rolagem horizontal */
+        }
+        /* Gradiente personalizado para a seção hero */
+        .hero-gradient {
+            background: linear-gradient(135deg, #020f1e, #021524);
+        }
+        /* Rolagem suave para links de âncora */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Efeito de brilho para o texto */
+        .text-glow {
+            text-shadow: 0 0 8px rgba(0, 255, 204, 0.7);
+        }
+        /* Animação de pulso para o botão */
+        .btn-pulse {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 204, 0, 0.7); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(255, 204, 0, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 204, 0, 0); }
+        }
+        /* Destaque da borda */
+        .border-highlight {
+            border-color: #00ffcc !important;
+        }
+        /* Spinner básico para estado de carregamento */
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid #00ffcc;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            display: none; /* Escondido por padrão */
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Seção Hero -->
+    <section class="hero-gradient flex flex-col items-center justify-center py-20 px-4 sm:px-6 lg:px-8 text-center min-h-screen relative overflow-hidden">
+        <!-- Elementos de fundo para interesse visual -->
+        <div class="absolute inset-0 z-0 opacity-10" style="background-image: url('https://img.freepik.com/free-photo/abstract-dark-pattern-background-with-geometric-lines_1017-38068.jpg?w=1380&t=st=1700000000~exp=1700000600~hmac=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2'); background-size: cover; background-position: center;"></div>
+        <div class="relative z-10 flex flex-col items-center">
+            <!-- Foto do Danilo - Placeholder temporário -->
+            <img src="https://placehold.co/192x192/00ffcc/000?text=Sua+Foto+Aqui" alt="Danilo Oliveira" class="w-48 h-48 rounded-full border-6 border-[#00ffcc] mb-8 shadow-2xl transition-transform duration-300 hover:scale-105">
+            
+            <!-- Título Principal com Autoridade -->
+            <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-[#00ffcc] leading-tight mb-4 animate-fade-in-down text-glow">
+                DESBLOQUEIE O LUCRO ESCONDIDO:<br> <span class="text-[#ffcc00]">MENTORIA ELITE</span> COM DANILO OLIVEIRA
+            </h1>
+            
+            <!-- Subtítulo Forte / Proposta de Valor -->
+            <p class="text-lg sm:text-2xl max-w-4xl mb-8 text-gray-300 animate-fade-in-up font-semibold">
+                Pare de perder dinheiro! Conheça o **Método Validado** que transformou a Liigo em **Referência Nacional** na compra e venda de plotters usadas.
+                <span class="block mt-2 text-xl text-[#00ffcc] font-bold">Sem achismo. Apenas PROVAS e RESULTADOS.</span>
+            </p>
+            
+            <!-- Botão de Chamada para Ação com Urgência/Escassez -->
+            <a href="https://wa.me/5511947361696" target="_blank" class="btn bg-[#ffcc00] text-black py-4 px-10 rounded-full font-bold text-xl sm:text-2xl transition-all duration-300 hover:bg-[#e6b800] hover:scale-105 shadow-2xl btn-pulse uppercase tracking-wide">
+                QUERO ACESSO À ELITE AGORA!
+            </a>
+            <p class="mt-4 text-sm text-gray-400 font-medium">Vagas Extremamente Limitadas – Aja Rápido!</p>
+        </div>
+    </section>
+
+    <!-- Seção: A Autoridade Irrefutável de Danilo Oliveira -->
+    <section id="sobre" class="py-16 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto text-center bg-black">
+        <h2 class="text-3xl sm:text-5xl font-bold text-[#ffcc00] mb-8 relative">
+            <span class="inline-block px-4 py-2 border-b-4 border-[#00ffcc] leading-tight">A Autoridade Irrefutável de Danilo Oliveira</span>
+        </h2>
+        <p class="text-lg sm:text-xl leading-relaxed text-gray-300 mt-8">
+            Danilo Oliveira não é apenas um teórico. É o **Fundador da Liigo**, uma empresa que se tornou sinônimo de sucesso e confiabilidade no mercado de plotters usadas. Com um histórico comprovado de **+400 máquinas vendidas**, ele não especula — ele opera!
+            <br><br>
+            Agora, o **mesmo sistema operacional** que gerou milhões em vendas está ao seu alcance, destilado em um modelo simples, direto e aplicável que você poderá usar em cada negociação.
+        </p>
+    </section>
+
+    <!-- Seção: O que você vai dominar? -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto bg-[#0a0a0a] rounded-lg shadow-xl border border-gray-800">
+        <h2 class="text-3xl sm:text-5xl font-bold text-[#00ffcc] mb-12 text-center relative">
+            <span class="inline-block px-4 py-2 border-b-4 border-[#ffcc00] leading-tight">O que você vai dominar?</span>
+            <p class="text-lg sm:text-xl text-gray-400 mt-4">Chega de dúvidas. Chega de prejuízo. Apenas Lucro.</p>
+        </h2>
+        <ul class="list-none space-y-10 text-base sm:text-xl text-gray-300">
+            <li class="flex flex-col md:flex-row items-center md:items-start p-6 bg-[#111] rounded-lg shadow-inner border border-gray-700">
+                <div class="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
+                    <div class="w-16 h-16 bg-[#ffcc00] text-black rounded-full flex items-center justify-center text-3xl font-bold">1</div>
+                </div>
+                <div>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-[#ffcc00] mb-2">Avaliação Impecável e Auditoria Total</h3>
+                    <p>Mergulhe na **Avaliação Técnica Profunda**: entenda a vida útil real, o estado de cada componente, o histórico de manutenção (o que ninguém te conta) e os padrões de uso que realmente importam. Saiba exatamente o que está comprando ou vendendo.</p>
+                </div>
+            </li>
+            <li class="flex flex-col md:flex-row items-center md:items-start p-6 bg-[#111] rounded-lg shadow-inner border border-gray-700">
+                <div class="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
+                    <div class="w-16 h-16 bg-[#ffcc00] text-black rounded-full flex items-center justify-center text-3xl font-bold">2</div>
+                </div>
+                <div>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-[#ffcc00] mb-2">O Segredo do Método Liigo: Precificação Lucrativa</h3>
+                    <p>Aprenda a aplicar o **Método Liigo Secreto**: uma fórmula precisa que combina demanda de mercado real, margem de lucro agressiva e gestão de risco para definir preços que não só vendem, mas maximizam seu retorno. Esqueça o "achismo" dos outros.</p>
+                </div>
+            </li>
+            <li class="flex flex-col md:flex-row items-center md:items-start p-6 bg-[#111] rounded-lg shadow-inner border border-gray-700">
+                <div class="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
+                    <div class="w-16 h-16 bg-[#ffcc00] text-black rounded-full flex items-center justify-center text-3xl font-bold">3</div>
+                </div>
+                <div>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-[#ffcc00] mb-2">Negociação Blindada e Venda com Segurança</h3>
+                    <p>Desenvolva a capacidade de **Argumentar com Provas Indiscutíveis**, elimine o "teste de print" desnecessário e feche vendas com total segurança e confiança. Sua palavra será ouro, sua negociação, irrefutável.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Seção: Provas Concretas de Resultados 🏆 -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+        <h2 class="text-3xl sm:text-5xl font-bold text-[#ffcc00] mb-8 text-center relative">
+            <span class="inline-block px-4 py-2 border-b-4 border-[#00ffcc] leading-tight">PROVAS CONCRETAS DE RESULTADOS 🏆</span>
+            <p class="text-lg sm:text-xl text-gray-400 mt-4">Casos de sucesso que falam por si.</p>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Estudo de Caso 1 -->
+            <div class="case bg-[#111] p-8 rounded-xl shadow-2xl border border-highlight transition-transform duration-300 hover:scale-105">
+                <h3 class="text-2xl sm:text-3xl font-bold text-[#ffcc00] mb-4 flex items-center">
+                    <svg class="w-8 h-8 mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    <span>Mimaki JV33 – Venda Recorde em 7 Dias</span>
+                </h3>
+                <p class="text-base sm:text-lg leading-relaxed text-gray-300">
+                    Previsão de venda: R$28.000. Com nossa **estratégia precisa e ajuste de precificação**, vendemos por R$22.900 + estratégias em tempo recorde. O cliente não só lucrou, como teve a confiança para investir imediatamente em uma Roland RF-640. Isso é **Velocidade e Confiança!**
+                </p>
+            </div>
+            <!-- Estudo de Caso 2 -->
+            <div class="case bg-[#111] p-8 rounded-xl shadow-2xl border border-highlight transition-transform duration-300 hover:scale-105">
+                <h3 class="text-2xl sm:text-3xl font-bold text-[#ffcc00] mb-4 flex items-center">
+                    <svg class="w-8 h-8 mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    <span>Plotter como Trade-in: R$9.500 de Economia Real</span>
+                </h3>
+                <p class="text-base sm:text-lg leading-relaxed text-gray-300">
+                    Um cliente aceitou um trade-in de R$15.000. Após nossa **análise aprofundada e reposicionamento estratégico**, a mesma plotter foi avaliada em R$24.500. Isso representou uma **economia direta de R$9.500 no caixa** do cliente. Pare de deixar dinheiro na mesa!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nova Seção: Integração API Gemini - Gerador de Insights de Mercado -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto text-center bg-[#0a0a0a] rounded-lg shadow-xl border border-gray-800">
+        <h2 class="text-3xl sm:text-5xl font-bold text-[#00ffcc] mb-8 relative">
+            <span class="inline-block px-4 py-2 border-b-4 border-[#ffcc00] leading-tight">✨ Gerador de Insights de Mercado para Plotters</span>
+            <p class="text-lg sm:text-xl text-gray-400 mt-4">Obtenha uma prévia do conhecimento que você vai dominar!</p>
+        </h2>
+        <div class="max-w-2xl mx-auto">
+            <p class="text-lg text-gray-300 mb-6">Digite o modelo de uma plotter (ex: "Mimaki JV33", "Roland RF-640") e descubra insights de mercado instantâneos.</p>
+            <input type="text" id="plotterInput" placeholder="Ex: Mimaki CJV150" class="w-full p-4 rounded-lg bg-[#111] text-white border border-gray-700 focus:outline-none focus:border-[#00ffcc] mb-6 text-lg">
+            <button id="generateInsightsBtn" class="btn bg-[#ffcc00] text-black py-4 px-8 rounded-full font-bold text-lg sm:text-xl transition-all duration-300 hover:bg-[#e6b800] hover:scale-105 shadow-xl flex items-center justify-center mx-auto">
+                GERAR INSIGHTS ✨
+            </button>
+            <div id="loadingSpinner" class="spinner mx-auto mt-6"></div>
+            <div id="insightsOutput" class="mt-8 p-6 bg-[#111] rounded-lg text-left text-gray-200 border border-gray-700 hidden">
+                <h3 class="text-xl font-bold text-[#ffcc00] mb-4">Insights Gerados:</h3>
+                <p id="insightText" class="whitespace-pre-wrap"></p>
+            </div>
+            <div id="errorMessage" class="mt-4 p-4 bg-red-800 text-white rounded-lg hidden">
+                Ocorreu um erro ao gerar os insights. Por favor, tente novamente.
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção: Para quem é essa mentoria? -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto text-center bg-black">
+        <h2 class="text-3xl sm:text-5xl font-bold text-[#00ffcc] mb-8 relative">
+            <span class="inline-block px-4 py-2 border-b-4 border-[#ffcc00] leading-tight">Essa Mentoria É Para VOCÊ Que...</span>
+        </h2>
+        <div class="text-lg sm:text-xl leading-relaxed text-gray-300 space-y-4 max-w-3xl mx-auto">
+            <p class="p-3 bg-[#111] rounded-lg shadow-md border border-gray-700"><span class="text-[#ffcc00] font-extrabold text-2xl mr-2">✔</span> É Dono de Gráfica ou Comunicação Visual e quer otimizar custos e lucros.</p>
+            <p class="p-3 bg-[#111] rounded-lg shadow-md border border-gray-700"><span class="text-[#ffcc00] font-extrabold text-2xl mr-2">✔</span> É Vendedor de Plotter e busca uma vantagem competitiva esmagadora.</p>
+            <p class="p-3 bg-[#111] rounded-lg shadow-md border border-gray-700"><span class="text-[#ffcc00] font-extrabold text-2xl mr-2">✔</span> Atua como Fornecedor ou Distribuidor e precisa de inteligência de mercado real.</p>
+            <p class="p-3 bg-[#111] rounded-lg shadow-md border border-gray-700"><span class="text-[#ffcc00] font-extrabold text-2xl mr-2">✔</span> É Técnico e Deseja Transformar seu Conhecimento em Consultoria Estratégica Lucrativa.</p>
+            <p class="p-3 bg-[#111] rounded-lg shadow-md border border-gray-700"><span class="text-[#ffcc00] font-extrabold text-2xl mr-2">✔</span> Não tolera mais o amadorismo e quer Operar no Nível dos Grandes!</p>
+        </div>
+    </section>
+
+    <!-- Seção: OPORTUNIDADE ÚNICA: Investimento e Vagas -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto text-center bg-[#0a0a0a] rounded-lg shadow-xl border border-gray-800">
+        <h2 class="text-3xl sm:text-5xl font-bold text-[#ffcc00] mb-8 relative">
+            <span class="inline-block px-4 py-2 border-b-4 border-[#00ffcc] leading-tight">OPORTUNIDADE ÚNICA: Investimento e Vagas</span>
+            <p class="text-lg sm:text-xl text-gray-400 mt-4">O custo de não participar é o prejuízo que você já está tendo.</p>
+        </h2>
+        <p class="text-[#00ffcc] font-extrabold text-4xl sm:text-5xl mb-4 text-glow">
+            APENAS R$60.000
+        </p>
+        <p class="text-[#ffcc00] font-extrabold text-2xl sm:text-3xl mb-8">
+            Vagas **CRITICAMENTE LIMITADAS** – Essa não é uma promessa, é uma realidade.
+        </p>
+        <p class="text-base sm:text-xl leading-relaxed text-gray-300 mb-10 max-w-3xl mx-auto">
+            Este não é um curso. É um **investimento estratégico** que se paga em **apenas 1 a 2 negociações!** Se você está perdendo dinheiro com avaliações erradas ou vendas que não performam, essa mentoria não é um custo, é a sua **libertação financeira** e aceleração de lucro no mercado de plotters usadas.
+            <span class="block mt-4 font-bold text-[#ffcc00]">O timing é AGORA!</span>
+        </p>
+        <!-- Botão de Chamada para Ação com Urgência Extrema -->
+        <a href="https://wa.me/5511947361696" target="_blank" class="btn bg-[#ffcc00] text-black py-5 px-12 rounded-full font-bold text-xl sm:text-3xl transition-all duration-300 hover:bg-[#e6b800] hover:scale-105 shadow-2xl btn-pulse uppercase tracking-wide animate-bounce">
+            QUERO DESBLOQUEAR MEUS LUCROS AGORA!
+        </a>
+        <p class="mt-6 text-sm text-gray-500 font-semibold">Decida rápido. As vagas estão acabando.</p>
+    </section>
+
+    <!-- Seção Rodapé -->
+    <footer id="inscreva" class="bg-[#020f1e] py-10 px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-500">
+        <p class="text-gray-400 mb-2">Danilo Oliveira — Fundador da Liigo. Sua Estratégia, Seu Lucro Real.</p>
+        <p class="text-gray-500">&copy; 2025 — Todos os direitos reservados. Liigo. CNPJ: 29230712000189</p>
+    </footer>
+
+    <script>
+        document.getElementById('generateInsightsBtn').addEventListener('click', async () => {
+            const plotterInput = document.getElementById('plotterInput').value;
+            const insightsOutput = document.getElementById('insightsOutput');
+            const insightText = document.getElementById('insightText');
+            const loadingSpinner = document.getElementById('loadingSpinner');
+            const errorMessage = document.getElementById('errorMessage');
+
+            insightsOutput.classList.add('hidden');
+            errorMessage.classList.add('hidden');
+            loadingSpinner.style.display = 'block'; // Mostra o spinner
+
+            if (!plotterInput) {
+                errorMessage.textContent = 'Por favor, digite o modelo da plotter.';
+                errorMessage.classList.remove('hidden');
+                loadingSpinner.style.display = 'none'; // Esconde o spinner
+                return;
+            }
+
+            try {
+                let chatHistory = [];
+                // Prompt em português para o LLM
+                const prompt = `Gere insights de mercado detalhados para a plotter usada "${plotterInput}". Inclua informações sobre a demanda atual, faixa de preço esperada no mercado de usados, pontos fortes, pontos fracos e dicas rápidas para venda ou compra. Responda de forma concisa e profissional, como um especialista em plotters usadas.`;
+                chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+                const payload = { contents: chatHistory };
+                const apiKey = ""; // Se quiser usar modelos diferentes de gemini-2.0-flash ou imagen-3.0-generate-002, forneça uma chave de API aqui. Caso contrário, deixe como está.
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                const result = await response.json();
+
+                if (result.candidates && result.candidates.length > 0 &&
+                    result.candidates[0].content && result.candidates[0].content.parts &&
+                    result.candidates[0].content.parts.length > 0) {
+                    const text = result.candidates[0].content.parts[0].text;
+                    insightText.textContent = text;
+                    insightsOutput.classList.remove('hidden');
+                } else {
+                    errorMessage.textContent = 'Não foi possível gerar insights para esta plotter. Tente outro modelo.';
+                    errorMessage.classList.remove('hidden');
+                }
+            } catch (error) {
+                console.error('Erro ao chamar a API Gemini:', error);
+                errorMessage.textContent = 'Ocorreu um erro ao gerar os insights. Por favor, tente novamente.';
+                errorMessage.classList.remove('hidden');
+            } finally {
+                loadingSpinner.style.display = 'none'; // Esconde o spinner
+            }
+        });
+    </script>
+</body>
+</html>
